@@ -1,4 +1,4 @@
-<h1 style="color:blue;text-align:center">Install docker engine on Ubuntu</h1>  
+# Install docker engine on Ubuntu 
 ### Set up the repository
 1. Update the `apt ` package index and install packages to allow `apt` to use a repository over HTTPS:
 ```
@@ -41,7 +41,6 @@ sudo apt-get install docker-ce=<VERSION_STRING> docker-ce-cli=<VERSION_STRING> c
 > Note: Thay <VERSION_STRING> bằng phiên bản ở trên: 
 > ví dụ: 
 ```
-
 sudo apt-get install docker-ce=5:20.10.14~3-0~ubuntu-hirsute docker-ce-cli=5:20.10.14~3-0~ubuntu-hirsute containerd.io docker-compose-plugin
 ```
 
@@ -54,8 +53,7 @@ sudo usermod -aG docker $USER
 sudo reboot now
 ```
 ---
-<h1 style="color: blue;text-align:center">Install docker-compose</h1>
-
+# Install docker-compose  
 1. Update your system
 ```
 sudo apt update 
