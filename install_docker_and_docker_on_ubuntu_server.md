@@ -45,8 +45,14 @@ sudo apt-get install docker-ce=<VERSION_STRING> docker-ce-cli=<VERSION_STRING> c
 sudo apt-get install docker-ce=5:20.10.14~3-0~ubuntu-hirsute docker-ce-cli=5:20.10.14~3-0~ubuntu-hirsute containerd.io docker-compose-plugin
 ```
 
-
-
+3. Sau khi cài đặt, bạn có thể cho user hiện tại thuộc group docker, để khi gõ lệnh không cần xin quyền sudo
+```
+sudo usermod -aG docker $USER
+```
+4. khởi động lại máy để lệnh số 3 có hiệu lực
+```
+sudo reboot now
+```
 
 # Install docker-compose  
 1. Update your system
